@@ -4,7 +4,7 @@ import { Globe, Bell, UserCircle } from "lucide-react";
 
 const Navbar = () => {
     return (
-        <nav className='font-roboto font-bold bg-black flex justify-between items-center  px-5 py-4 w-full h-[78px]'>
+        <nav className='font-roboto font-bold bg-black flex justify-between items-center  px-5 py-4 w-full h-[78px] text-white'>
             <div>
                 <img src="/Assets/icons/logo.png" alt="logo" />
             </div>
