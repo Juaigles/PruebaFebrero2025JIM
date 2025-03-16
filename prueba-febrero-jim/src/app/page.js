@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <div>
+      <div className="flex justify-between">
         <div>
 <SateliteButton/>
         </div>
