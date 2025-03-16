@@ -2,7 +2,7 @@ import React from 'react'
 
 const Buttons = ({ }) => {
     return (
-        <div className='font-roboto w-[268px] h-[295px] border border-[#E5E5E5] flex flex-col'>
+        <div className='font-roboto w-[268px] h-[295px] border border-[#6C757D] flex flex-col text-black'>
             <div className='w-[268px] h-[110px] border'>
                 <img src={null} alt="IMG" className=''/>
             </div>

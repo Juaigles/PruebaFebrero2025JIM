@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className='font-roboto font-bold bg-black flex justify-between items-center  px-5 py-4 w-full h-[78px]'>
             <div>
-                <img src={null} alt="logo" />
+                <img src="/Assets/icons/logo.png" alt="logo" />
             </div>
             <div className='flex gap-10 text-[24px]'>
                 <Link href="">HOME</Link>
