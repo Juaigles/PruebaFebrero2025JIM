@@ -21,3 +21,10 @@ body {
 
 .hero{
 }
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 95px;
+}
+

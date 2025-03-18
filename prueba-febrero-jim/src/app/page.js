@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <div className="pl-[71px] pr-[87px]">
       <div className="flex justify-between">
         <div>
 <SateliteButton/>
@@ -18,14 +19,15 @@ export default function Home() {
 <Button/>
         </div>
       </div>
-      
-      <div className="grid grid-cols-4 gap-4 p-4 justify-center items-center bg-white">
+
+      <div className=" wrapper ">
         {Array.from({ length: 8 }).map((_, index) => (
           <div key={index} className="">
             <Buttons />
           </div>
         ))}
       </div>
+        </div>
     </>
   );
 }
